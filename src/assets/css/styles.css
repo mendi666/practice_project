@@ -1,0 +1,52 @@
+.planets_info {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  position: absolute;
+  left: 400px;
+  gap: 10px;
+
+
+}
+
+.container {
+
+  position: relative;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*border: black;*/
+
+
+}
+
+.planet__info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: cadetblue;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.total_count {
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.planet__info_name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+
